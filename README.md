@@ -33,13 +33,15 @@ These rejections occur when our internal validation service (RexValidate) identi
 | **Failed Activity Score** | Phone number shows insufficient recent activity (Activity Score indicates 12-month phone usage; scores below 30 suggest disconnected or rarely used numbers) |
 
 ### Buyer Rejections
+
 | Error Code | Explanation |
-|------------|-------------------------|
+|------------|-------------|
 | **Not Match / Unmatched** | Lead was successfully submitted to end buyer but rejected based on buyer-specific criteria |
 
 ### Technical Issues
+
 | Error Code | Explanation |
-|------------|-------------------------|
+|------------|-------------|
 | **Sub ID is Required** | Missing required subID parameter - check integration specs for "pubsub" or "sub_id" field requirements |
 
 ---
