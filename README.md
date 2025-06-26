@@ -32,6 +32,13 @@ These rejections occur when our internal validation service (RexValidate) identi
 | **Not a Residential Address** | Address verification failed - location is not classified as a residential property |
 | **Failed Activity Score** | Phone number shows insufficient recent activity (Activity Score indicates 12-month phone usage; scores below 30 suggest disconnected or rarely used numbers) |
 
+### TrustedForm Rejections
+
+| Error Code | Explanation |
+|------------|-------------|
+| **Form Data Pasted** | TrustedForm detected that data was pasted into the form rather than typed naturally by the user |
+| **Email/Phone Mismatch** | The submitted email address or phone number does not match the data captured in the TrustedForm certificate |
+
 ### Buyer Rejections
 
 | Error Code | Explanation |
