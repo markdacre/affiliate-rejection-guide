@@ -31,6 +31,7 @@ These rejections occur when our internal validation service (RexValidate) identi
 | **Failed Phone Grade** | Phone number validation failed - number appears to be invalid or disconnected |
 | **Not a Residential Address** | Address verification failed - location is not classified as a residential property |
 | **Failed Activity Score** | Phone number shows insufficient recent activity (Activity Score indicates 12-month phone usage; scores below 30 suggest disconnected or rarely used numbers) |
+| **Property Owner Not Found** | 3rd party validation could not find a property owner that lives at that address |
 
 ### TrustedForm Rejections
 
