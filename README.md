@@ -30,6 +30,7 @@ These rejections occur when our internal validation service (RexValidate) identi
 | **IP to Zip Distance** | Geographical inconsistency detected between IP location and submitted ZIP code |
 | **Failed Phone Grade** | Phone number validation failed - number appears to be invalid or disconnected |
 | **Not a Residential Address** | Address verification failed - location is not classified as a residential property |
+| **Property Type Absentee Not Valid** | Owner's mailing address differs from the property's physical address (situs), indicating the owner does not live on-site. Property is likely a rental, vacation home, or vacant — and therefore ineligible. |
 | **Failed Activity Score** | Phone number shows insufficient recent activity (Activity Score indicates 12-month phone usage; scores below 30 suggest disconnected or rarely used numbers) |
 | **Property Owner Not Found** | 3rd party validation could not find a property owner that lives at that address |
 
