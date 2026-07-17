@@ -38,8 +38,11 @@ These rejections occur when our internal validation service (RexValidate) identi
 
 | Error Code | Explanation |
 |------------|-------------|
-| **Form Data Pasted** | TrustedForm detected that data was pasted into the form rather than typed naturally by the user |
-| **Email/Phone Mismatch** | The submitted email address or phone number does not match the data captured in the TrustedForm certificate |
+| **Trusted Form Input - Pasted** | TrustedForm detected that data was pasted into the form rather than typed naturally by the user |
+| **Trusted Form Email does not match** | The submitted email address does not match the email captured in the TrustedForm certificate |
+| **Trusted Form Phone does not match** | The submitted phone number does not match the phone captured in the TrustedForm certificate |
+| **Trusted Form URL does not match** | The submitted source URL/domain does not match the domain captured in the TrustedForm certificate. For comparison, we ignore `www.`, numbers, and the final domain extension such as `.com`, `.net`, `.org`, `.ai`, etc. |
+| **Trusted Form Bot Detected** | TrustedForm detected bot-like behavior on the form session |
 
 ### Buyer Rejections
 
